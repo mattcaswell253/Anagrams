@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Succesful Anagrams</title>
+
+    <h1>These are all your Anagrams that matched your given word.</h1>
+  </head>
+  <body>
+    @foreach(string match in @Model)
+    {
+      <h4>@match</h4>
+    }
+
+  </body>
+</html>
